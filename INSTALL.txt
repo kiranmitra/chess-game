@@ -1,0 +1,8 @@
+Install relevant OPAM packages:
+opam install camlimages graphics
+
+Run program:
+dune exec bin/main.exe
+
+LOC count:
+cloc --by-file --include-lang=OCaml .

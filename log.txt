@@ -1,0 +1,634 @@
+commit a4bbb75c3503351927fce629a49b5d45feedc0fa
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Wed May 15 23:02:43 2024 -0400
+
+    Added Test Plan document
+
+commit 242af7f5f8ea9bc78abe9c20c023e9b575af3334
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Wed May 15 15:44:20 2024 -0400
+
+    minor test name changes
+
+commit 6ae3d93ea7ebc7227c575365118394f6f664c6f1
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Wed May 15 14:41:03 2024 -0400
+
+    AF/RI for game, position, and piece
+
+commit fd2bdf8564f539937887d119996b6f02b394ffbb
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Wed May 15 14:09:08 2024 -0400
+
+    refactoring to meet max 20line/func req
+
+commit 39d3cdab9ff3f01d6806fbc4be204b878f5b2ebd
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Wed May 15 13:27:57 2024 -0400
+
+    minor spec edits
+
+commit da829378eaef6dc2d7013c3f2acd90e4fc5dee7a
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Wed May 15 00:43:54 2024 -0400
+
+    updated yaml file
+
+commit 7947f667ee7af57e296e67000b6d640d90212f6d
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Wed May 15 00:34:35 2024 -0400
+
+    changed comments, deleted prints
+
+commit 103a3a09700270c588ec77a2763fdcb7b606418b
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Wed May 15 00:30:11 2024 -0400
+
+    changed spec for unencapsulated method
+
+commit a2d8484b88ec58dd962bdef2cec03ff30ea61431
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Wed May 15 00:28:46 2024 -0400
+
+    wrote tests for all_moves method (required unencapsulating two methods in game)
+
+commit 9766843c36e766a8af1795a9731c42d549799cda
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Tue May 14 23:25:41 2024 -0400
+
+    Testing suite cleanup
+
+commit e8a7980a76a3bd41bbc89d1140fcb6059a1849ea
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Tue May 14 22:38:54 2024 -0400
+
+    Tested game further (keyboard inputs)
+
+commit 0762e39e5ffb421e03c98aa88ccdda1fbff8f8cb
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Fri May 10 17:47:28 2024 -0400
+
+    Test king and rook move
+
+commit 610b818d440b34492055401b6afeba928d8b55ed
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Fri May 10 16:00:43 2024 -0400
+
+    minor fix
+
+commit b3d2a2f973783db3647a49206a700b9ffdf2554e
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Fri May 10 15:59:56 2024 -0400
+
+    minor fixes plus summary update
+
+commit ee1e743c6f92e93bbaea25da5087d8b5e4d4676a
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Thu May 9 16:10:32 2024 -0400
+
+    cleaned up valid_move tests & matched diagrams
+
+commit b15a60491f55f3c71ff7715f03d008255db3e205
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Thu May 9 15:04:19 2024 -0400
+
+    Wrap up matrix testing
+
+commit 1674899a9858a85343b91820a9837317d127ce87
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Thu May 9 14:10:56 2024 -0400
+
+    Finished valid_moves testing
+
+commit bad420dddbb80b560acb84e2396ad299dc98c5bf
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Wed May 8 23:43:21 2024 -0400
+
+    Tested rook, bishop, and queen
+
+commit 0b2177dc25ba9382203dde778478d610df476cc1
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Wed May 8 18:52:30 2024 -0400
+
+    simplified valid_move test code
+
+commit f9d739035a7db67b66dbccde1afe8248d6bba7c8
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Wed May 8 18:40:05 2024 -0400
+
+    Edited welcome screen and separated tests
+
+commit 78f8233c5e1b3aecb1e5a0f7491bc0dfa6ced1be
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Wed May 8 01:55:40 2024 -0400
+
+    Added title updates and fixed next game start
+    
+    - title updates for check, checkmate, and stalemate
+    - game no longer ends as soon as checkmate happens
+    - edited knight test case slightly
+
+commit af2997dc2a17f35b532d33408ff9e9199e01c3a9
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Tue May 7 12:24:03 2024 -0400
+
+    Continue testing square_matrix
+
+commit 35ef598dc51c7d7e3a4c7e797da9648110b52995
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Tue May 7 11:25:50 2024 -0400
+
+    Begin testing square_matrix
+
+commit 555cd19025883648af4d4dc4cb326d39f13fbd08
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Wed May 1 22:44:44 2024 -0400
+
+    Implement stalemate
+
+commit 25be08cf670a2d55e70b47788e22ee6cca0feb83
+Merge: cfd02a3 4439ca8
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Wed May 1 11:24:43 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:ss3576/srk-final-3110
+
+commit cfd02a3bff99f0c862fb127ee7e308ab93b84ae1
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Wed May 1 11:23:43 2024 -0400
+
+    added checkmate logic to program
+    - checks for checkmate in player_move
+    - if checkmate, then prints checkmate in terminal and restarts game (for now)
+
+commit 4439ca81e4a578c56b9829bf60b1bdc52730a0b4
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Tue Apr 30 22:46:01 2024 -0400
+
+    FInished knight test case - all possibilities
+
+commit f5a2354cab98d211273745aed829dd0ec18a9d0f
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Tue Apr 30 20:49:05 2024 -0400
+
+    Minor code cleanup
+
+commit 748d8aaf6c5df880dd32ad3ff6d48aa0a1333fe6
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Tue Apr 30 20:36:35 2024 -0400
+
+    changed minor error with king check logic
+
+commit 42f143f7c284a81671adb049158c6a11bebc714d
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Tue Apr 30 20:15:24 2024 -0400
+
+    Completed all check code
+    - only allows moves that will put king out of check (i.e. valid moves for moving king or valid non king moves that will block the check)
+    - doesn't allow a blocking piece to be moved to a position that will cause king to be in check again
+
+commit bcdfdb21174e1082af95e600ce07731401b9d1e6
+Merge: 75eb6b9 87e4cee
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Tue Apr 30 19:59:05 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:ss3576/srk-final-3110
+
+commit 75eb6b9bd905f76afe87ea538cfc0bc2bd6f0ae8
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Tue Apr 30 19:57:38 2024 -0400
+
+    changes related to check
+    - when king is in check, no other piece is allowed to move except the king
+    - king's moves are restricted to those that won't cause another check
+    - other pieces when king is in check is in the process of being fixed such that they can only move to places that will block the check
+
+commit 87e4cee4cff0c13974a21d137152b490526be5eb
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Tue Apr 30 18:55:37 2024 -0400
+
+    Finished update_move
+
+commit 06eafae0e6d1827500aa9ab43ddc64d9327d44ca
+Merge: aea6b7c 4f2faef
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Mon Apr 29 11:17:45 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:ss3576/srk-final-3110
+
+commit aea6b7cd4b7e49b1b5810001531eb4f45e19d09f
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Mon Apr 29 11:17:38 2024 -0400
+
+    trivial change
+
+commit 4f2faefe79bd3e2da9041316a7228e80e75fdd4a
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Sun Apr 28 01:43:58 2024 -0400
+
+    Fixed En Passant
+    
+    - took into account rule that has to be a pawn that just moved
+    - used game title to achieve this
+
+commit 960621b52e41fb00a3ae4019a83cba4980db677e
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Sun Apr 28 00:02:20 2024 -0400
+
+    Changed printed message and edited test
+
+commit a018e2121616b3d2425eba370bf2fcfc7da86fd8
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Sun Apr 28 00:00:25 2024 -0400
+
+    Fixed Castling
+    
+    - took out mutable state and put in game logic
+    - made overall game file easier to read
+    - future code will be able to use pipelining
+
+commit ad7ec2b8a8fdd305b98af66598202088ed26f16d
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Fri Apr 26 17:48:07 2024 -0400
+
+    Fixed files not found issue in testing
+
+commit 8d2555b42793e91261d6719c086a4366a9651424
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Fri Apr 26 16:04:44 2024 -0400
+
+    Added Knight Test Case
+    
+    - Need to figure out file access
+
+commit 86eed4a377620b4c331801a5bd69488943e53727
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Sun Apr 21 14:17:02 2024 -0400
+
+    Implement position test suite
+
+commit bb30710191ac2ff896268e0ec02747a7f3731a1d
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Fri Apr 19 14:51:28 2024 -0400
+
+    Implement basic En Passant
+
+commit 89254f123a5bc85febf4417f1efd6d8759165b00
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Thu Apr 18 16:13:55 2024 -0400
+
+    Mild code cleanup
+
+commit f6aebe0fd67068e52a91d50ebeb9a2fb29a01071
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Thu Apr 18 16:07:40 2024 -0400
+
+    Implement pawn promotion
+
+commit 8ef9ca22df246e61e6a84d4a5536e8e2ee20be86
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Wed Apr 17 23:30:26 2024 -0400
+
+    Finish castling
+
+commit 36666019e6c8e8df265e308a1311e2a2fb71900c
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Mon Apr 15 02:10:16 2024 -0400
+
+    Added and Revised specs for many modules
+    
+    - display
+    - game
+    - piece
+    - position
+    - square_matrix
+
+commit 2be3688565109a88cc7aff49c8d07d6bc2657443
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Sat Apr 6 18:43:45 2024 -0400
+
+    Small comment change
+
+commit 5417daf461784de26bdd720306b98ccca64f63df
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Sat Apr 6 18:38:57 2024 -0400
+
+    Implement basic castling
+    
+    - King can recognize castle and move the two spaces necessary
+    - However, rook needs to swap (to be implemented)
+
+commit 66b8c0a2a434818aaefeec63a73018338f30e86c
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Sat Apr 6 17:53:46 2024 -0400
+
+    Simplifying game code
+
+commit 6b325ac5afd3aef343077ee782a37986d27628c5
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Fri Apr 5 16:22:28 2024 -0400
+
+    Continued work on check
+
+commit 69884fd6ee0fe7bc9a1ef382bdb7812863b2b5d3
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Fri Apr 5 16:09:22 2024 -0400
+
+    Improved game code readability
+
+commit b557c3045a3a868d5ba21d5059f82cfd44d73022
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Fri Apr 5 15:46:44 2024 -0400
+
+    Added check pseudologic
+
+commit 3c5ac32ccb66a86539e861adbaee5902a0e66a5c
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Fri Apr 5 01:20:17 2024 -0400
+
+    Rough implementation of pawn game logic
+
+commit 871bfada5bb6e40f09a24e680f0be17ba3cd9a27
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Thu Apr 4 22:43:43 2024 -0400
+
+    Setting up test file
+
+commit adc18d7570866724b20b7f64e15a212022be0dd1
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Thu Apr 4 19:04:01 2024 -0700
+
+    Added simple get_valid_moves
+    
+    - pieces has directions piece can move in
+    - pawn moves need special handling
+    - check/checkmate not implemented
+    - pieces can only move to valid places
+
+commit 54c9f6d61aa1a4b729707732acbb2d5f55f05dee
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Thu Apr 4 14:39:08 2024 -0700
+
+    Added multiple new features
+    
+    - enforced turns
+    - selected piece is highlighted
+    - can rewind and forward moves
+    - welcome screen added (edit in Word doc and snip into .bmp)
+    - keyboard clicks added
+    - cannot take own pieces
+    - pieces no longer disappear when cilcked on twice
+    - temporary game over logic added
+
+commit 75da11d082bf83ea944ee962ecbb1181c98c580c
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Mon Apr 1 17:45:40 2024 -0700
+
+    Abstracted out board to a square matrix
+
+commit 8a19c8178fd1e5b51cc0ff72e2443b31fdc86e28
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Thu Mar 28 16:35:50 2024 -0400
+
+    Added to INSTALL.txt
+
+commit 9247cdbcee652d18b2d350245a678d5822a8969c
+Merge: 18ad9aa ecbc882
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Thu Mar 28 15:23:29 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:ss3576/srk-final-3110
+
+commit 18ad9aae25528a6f7fa90ae45493723316fd13a6
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Thu Mar 28 15:22:36 2024 -0400
+
+    Added .YAML summary file
+
+commit ecbc88298b83ecd9e2fea11fa04bbdc4a8dcd803
+Merge: ebd78e2 9ccf5f8
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Thu Mar 28 15:12:30 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:ss3576/srk-final-3110
+
+commit ebd78e2b8f6f62af50df20659f02cfe49c825513
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Thu Mar 28 15:11:39 2024 -0400
+
+    Added INSTALL.txt
+
+commit 9ccf5f8c9a02e95c2bb3662d09bb393db67f01c1
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Thu Mar 28 15:02:48 2024 -0400
+
+    Ensuring code compiles
+
+commit 56b6ffafbe117a3af915b424553e24957f747050
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Thu Mar 28 14:57:05 2024 -0400
+
+    Changed names of a few functions
+
+commit 9222e2342554be075a25997edc12e0c77922e11d
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Thu Mar 28 12:22:51 2024 -0400
+
+    Added pieces to board with interactability
+    
+    - loaded pieces onto the board
+    - can move pieces wherever you want to
+    - selecting same position will erase the piece (this would not be a porblem in the real game since that move will be considered invalid and then would not occur)
+    - bitmap_file loads images for pieces (with custom code for background transparency)
+    - added loading of images in piece.ml
+    - added way to get user mouse clicks and keyboard presses (in display.ml)
+    - caught Graphics_Failure exception so board closes normally
+    - created iterate finction to traverse rows and perform operations on pieces (position has a helper (move_by_row) to traverse rows correctly)
+
+commit 1710adef136132a7854b32fdadbb4224e14e658d
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Wed Mar 27 00:08:00 2024 -0400
+
+    Added instructions and ensured code compilation
+    
+    - Added instructions to main.ml
+    - Commented out code in board.ml/.mli and piece.ml to ensure compilation
+
+commit 2ec223d26eb9bbb6f4caf34743a52944e7d36064
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Tue Mar 26 12:52:32 2024 -0400
+
+    Started logic for valid piece moves (completed for king, rook, and pawn)
+
+commit f91572f2fef7b8dc5c49d4d321c9bc429479ece1
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Tue Mar 26 12:14:05 2024 -0400
+
+    Added functionality to create empty board initialized with pieces in starting position
+    - wrote functions in mli
+    - implemented in ml (with helper functions)
+
+commit cb49b98c68cc585e5fb795b806b1ffbbfeb9b32f
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Tue Mar 26 01:32:24 2024 -0400
+
+    Started Piece Module
+    
+    - added chess piece definition for black and white players
+    - fields are player (black/white), piece type (king, queen, knight, etc.), and then the image associtaed with the piece type (coming soon)
+    - image is not yet implemented (will use BitMap image loading)
+
+commit bd537f9c9370776ffb919b5a2466a19bb105ddcb
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Tue Mar 26 01:21:59 2024 -0400
+
+    Made checkerboard pop up using Graphics
+    
+    - checkerboard appears
+    - used green and cream like chess.com
+    - when you hit enter, board disappears
+    - commented out piece module to get this working
+
+commit c7a48da57d15c093cbaf476db3281bae4ecd03c4
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Tue Mar 26 00:52:12 2024 -0400
+
+    Added position module
+    
+    - prints position in chess move format (i.e. g4)
+    - checks whether the position is on the board
+
+commit 8b4481c254f1b59e5679309c36a5071ef21e2f60
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Tue Mar 26 00:47:02 2024 -0400
+
+    Added piece images from chess.com
+
+commit 20f2b22d7013b6eacb0d8be64e2444483079b827
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Sat Mar 23 19:02:29 2024 -0400
+
+    Minor tweaks to piece
+
+commit 3b6e9b9e89328ba3fcf44247e9cd21ead25693c9
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Sat Mar 23 18:54:55 2024 -0400
+
+    Started working on piece compilation unit
+
+commit aee0e4019ce0c6c72be8bc8f2239e26279082317
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Sat Mar 23 18:14:53 2024 -0400
+
+    Another trivial commit for testing
+
+commit 6fc3297f4a2aa86e9f3d70e0b200bcbb6bbc0e8a
+Author: Rayhan Khanna <rk696@cornell.edu>
+Date:   Sat Mar 23 18:10:08 2024 -0400
+
+    Trivial commit for testing
+
+commit 0419a9486969e0a3aae06006b0955098166c0116
+Merge: 98198c2 a310d84
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Sat Mar 23 18:03:52 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:ss3576/srk-final-3110
+
+commit 98198c2e2d15d6c312f3fdf215264611c949bb4c
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Sat Mar 23 17:56:43 2024 -0400
+
+    Creating initial files for chess board and pieces
+
+commit a310d8483ee2a73e6c5e78c284a3dfce0676652e
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Sat Mar 23 17:56:43 2024 -0400
+
+    c
+    Creating initial files for chess board and pieces
+
+commit d9318baf05484346655dc231d858ce613a143f3c
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Sat Mar 23 17:48:37 2024 -0400
+
+    Update README
+
+commit 5ff8eb864969bc766ac96a69faaace2b13753e44
+Author: rk696 <rk696@cornell.edu>
+Date:   Sat Mar 23 17:49:00 2024 -0400
+
+    Update README.md
+
+commit c15e5412939c24a7aab01bf0b3b10cf9374d6bd4
+Author: rk696 <rk696@cornell.edu>
+Date:   Sat Mar 23 17:48:02 2024 -0400
+
+    Update README.md
+
+commit 49074c409434c0e91b706cb36b713b1c3c45ea19
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Sat Mar 23 17:46:22 2024 -0400
+
+    updating opam
+
+commit 646edf2f8d1a703a146a0ec555e92c4fbee33259
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Sat Mar 23 17:44:28 2024 -0400
+
+    removing _build
+
+commit d6b4750d9b7245653d5f2c9c2be28c9cfa1e8bef
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Sat Mar 23 17:40:40 2024 -0400
+
+    adding readme again
+
+commit 63f1016cfe3ffee76a8746a2e330b5f78277b958
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Sat Mar 23 17:38:28 2024 -0400
+
+    add .gitignore
+
+commit 449a0e3a105400b0238897465ee719ecea62a968
+Merge: 3bb5651 7ffbdaa
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Sat Mar 23 17:38:07 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:ss3576/srk-final-3110
+
+commit 3bb56517b9ac8dfbd6a77d4d91f2169f1163f428
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Sat Mar 23 17:29:07 2024 -0400
+
+    adding readme
+
+commit 9efc15c8698364e6fadca059dbf50fa4301f39c1
+Author: Shriya Sudhakar <ss3576@cornell.edu>
+Date:   Sat Mar 23 17:21:58 2024 -0400
+
+    Initial Commit
+
+commit 7ffbdaa2bd8c0f5b73cd5af0285b69f02f7a115c
+Author: Kiran Mitra <km936@cornell.edu>
+Date:   Thu Mar 7 18:18:18 2024 -0500
+
+    Update README
+
+commit 4384d69a5bea4748495d4a3df4eea4c4c449478e
+Author: rk696 <rk696@cornell.edu>
+Date:   Thu Mar 7 15:38:12 2024 -0500
+
+    Update README.md
+
+commit 8117ca32f113a017df8498d4753bb3d62e01098e
+Author: ss3576 <15901+ss3576@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Mar 7 15:28:54 2024 -0500
+
+    Update README with name and netid (Shriya)
+
+commit d9cb43098d91cca6605dc173d1314473afa01587
+Author: ss3576 <15901+ss3576@users.noreply.github.coecis.cornell.edu>
+Date:   Thu Mar 7 15:11:27 2024 -0500
+
+    Initial commit
